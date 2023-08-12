@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+}
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  display: block;
+  color: #f3f3f3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+  margin: 0;
+}
+#container {
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 45rem;
+}
+
+form {
+  background-color: #1b1b32cc;
+  color: #f3f3f3;
+  padding: 40px;
+  font: 16px Poppins, sans-serif;
+  margin-top: 0em;
+  font-size: 1.125rem;
+}
+fieldset {
+  border: none;
+  margin: 1rem 4px 0 0;
+}
+label {
+  display: block;
+  padding: 0.2rem;
+}
+header {
+  text-align: center;
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+#name,
+#email,
+#number {
+  width: 96%;
+  height: 2.375rem;
+  border: 0;
+  border-radius: 3px;
+  font-size: inherit;
+  /* font: 18px Poppins, sans-serif margin 0x 0x 8px; */
+  padding: 0 2%;
+  margin: 0 auto 1.25rem auto;
+}
+#textarea {
+  background: #ffffff;
+  width: 100%;
+  height: 110px;
+  border-radius: 2px;
+}
+#submit {
+  background: #37af65;
+  width: 100%;
+  color: #f3f3f3;
+  height: 40px;
+  border: none;
+  /* padding: 12px; */
+}
+select {
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 0;
+}
