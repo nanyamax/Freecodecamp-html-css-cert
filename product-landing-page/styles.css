@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #eee; */
+}
+#container {
+  width: 100%;
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+  /* padding: 20px; */
+  margin: 0;
+}
+
+#header-div {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  /* margin: auto; */
+  background-color: #eee;
+}
+#header-img {
+  width: 350px;
+}
+#nav-bar a {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: black;
+  /* margin: auto; */
+}
+#inner-body {
+  margin: auto;
+  display: block;
+  width: 600px;
+  text-align: left;
+}
