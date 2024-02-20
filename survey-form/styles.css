@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 :root {
   --color-white: #f3f3f3;
@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.4;
   margin: 0;
 }
@@ -30,7 +30,20 @@ body {
   width: 100%;
   max-width: 45rem;
 }
-
+header {
+  text-align: center;
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+header h1 {
+  margin-bottom: 0.2em;
+  font-weight: 300;
+}
+header p {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
 form {
   background-color: #1b1b32cc;
   color: #f3f3f3;
@@ -47,11 +60,7 @@ label {
   display: block;
   padding: 0.2rem;
 }
-header {
-  text-align: center;
-  padding: 0 0.625rem;
-  margin-bottom: 1.875rem;
-}
+
 #name,
 #email,
 #number {
@@ -60,7 +69,6 @@ header {
   border: 0;
   border-radius: 3px;
   font-size: inherit;
-  /* font: 18px Poppins, sans-serif margin 0x 0x 8px; */
   padding: 0 2%;
   margin: 0 auto 1.25rem auto;
 }
@@ -76,6 +84,7 @@ header {
   color: #f3f3f3;
   height: 40px;
   border: none;
+  font-size: 1em;
   /* padding: 12px; */
 }
 select {
