@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
 #container {
   background-color: #eee;
@@ -12,7 +14,7 @@ body {
 }
 #header {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: #eee;
@@ -25,7 +27,7 @@ body {
   margin: auto;
 }
 #header-img {
-  max-width: 300px;
+  max-width: 16rem;
   height: 34px;
   padding-top: 0.8em;
 }
@@ -33,6 +35,7 @@ body {
   float: left;
   display: flex;
   padding-top: 4em;
+  /* width: 50%; */
 }
 a {
   text-decoration: none;
